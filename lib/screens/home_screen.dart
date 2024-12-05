@@ -34,6 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onMapCreated: (GoogleMapController controller) {
           _googleMapController = controller;
         },
+        polylines:  Set(Polyline(polylineId: PolylineId("route"))),
       ),
     );
   }
