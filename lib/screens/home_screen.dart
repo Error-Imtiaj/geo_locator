@@ -146,6 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
         polylines: _polylines,
         myLocationEnabled: true,
         myLocationButtonEnabled: false, // Disabling the default GPS button
+        zoomControlsEnabled: false,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
