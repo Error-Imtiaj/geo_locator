@@ -45,5 +45,12 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Location permissions -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location to provide map functionality.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need your location for continuous tracking on the map.</string>
+	
 </dict>
 </plist>
