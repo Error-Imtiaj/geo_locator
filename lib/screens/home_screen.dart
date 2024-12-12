@@ -19,13 +19,11 @@ class _HomeScreenState extends State<HomeScreen> {
     target: LatLng(22.34433835192831, 91.78941230711727),
     zoom: 17,
   );
-
   @override
   void initState() {
     super.initState();
     _checkPermissionsAndFetchLocation();
   }
-
   Future<void> _checkPermissionsAndFetchLocation() async {
     LocationPermission permission = await Geolocator.checkPermission();
     if (permission == LocationPermission.denied ||
